@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.SimpleDataSource = void 0;
 var Product_1 = require("./Product");
 var SimpleDataSource = /** @class */ (function () {
     function SimpleDataSource() {

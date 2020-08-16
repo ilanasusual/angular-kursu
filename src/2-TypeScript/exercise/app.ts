@@ -10,7 +10,7 @@ result = _productService.getById(2);
 
 let p = new Product();
 
-p.id = 2;
+// p.id = 2;
 p.name = "Iphone 6";
 p.price = 4000;
 p.category ="Telefon";

@@ -46,6 +46,7 @@ export class ProductService implements IProductService {
         let key = 1;
         while(this.getById(key) !=null) {
             key++;
+            console.log("lets see if this letter gonna be read 4 times or not");
         }
         return key;
     }

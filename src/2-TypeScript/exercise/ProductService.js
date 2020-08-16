@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.ProductService = void 0;
 var SimpleDataSource_1 = require("./SimpleDataSource");
 var ProductService = /** @class */ (function () {
     function ProductService() {
@@ -39,6 +40,7 @@ var ProductService = /** @class */ (function () {
         var key = 1;
         while (this.getById(key) != null) {
             key++;
+            console.log("lets see if this letter gonna be read 4 times or not");
         }
         return key;
     };
